@@ -1,0 +1,29 @@
+{
+  "name": "App_Scilpter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey0725/App_Scilpter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexey0725/App_Scilpter/issues"
+  },
+  "homepage": "https://github.com/alexey0725/App_Scilpter#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11"
+  }
+}
